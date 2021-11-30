@@ -1,3 +1,6 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +12,18 @@ body {
     background-color: #1f2937;
     color: #fff;
 }
-.header a {
+.logo {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: #F9FAF8;
+    text-decoration: none;
+    font-size: 24px;
+}
+.logo img {
+    vertical-align: middle;    
+}
+nav a {
     float: left;
     text-align: center;
     padding: 5px;
@@ -26,6 +40,11 @@ nav {
     padding: 20px;
 }
 /* Second section */
+.section-2 {
+    overflow: hidden;
+    background-color: #1f2937;
+    color: #fff;
+}
 .left {
     float: left;
     width: 35%;   
