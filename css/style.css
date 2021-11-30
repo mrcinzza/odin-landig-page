@@ -23,5 +23,20 @@ nav {
 .center {
     margin: auto;
     width: 60%;
+    padding: 20px;
+}
+/* Second section */
+.left {
+    float: left;
+    width: 35%;   
+}
+.right {
+    float: right;
+    width: 60%;
+}
+.right img {
+    width: auto;
+    height: 250px;
+    float:right;
 }
 
