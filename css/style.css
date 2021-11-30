@@ -111,6 +111,7 @@ nav a:hover {
   margin: 19px;
   clear: right;
   transition: transform 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .img-container img {
   border-radius: 8px 8px 0 0;
@@ -141,8 +142,8 @@ nav a:hover {
   padding: 50px;
 }
 
-.jbtron button{
-  float:right;
+.jbtron button {
+  float: right;
   color: #f9faf8;
   background-color: #3882f6;
   padding: 12px 30px;
@@ -153,15 +154,15 @@ nav a:hover {
   vertical-align: middle;
 }
 .jbtron div {
-  float:left;
+  float: left;
 }
 
 /* Footer */
 footer {
-  height:50px;
+  height: 50px;
   text-align: center;
-  background-color:#1f2937;
-  color:#f9faf8;
+  background-color: #1f2937;
+  color: #f9faf8;
   font-size: 12px;
   padding: 20px;
 }
