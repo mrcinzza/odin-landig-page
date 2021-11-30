@@ -10,6 +10,7 @@ body {
   top: 0;
   overflow: hidden;
   background-color: #1f2937;
+  clear: both;
 }
 .logo {
   float: left;
@@ -76,7 +77,7 @@ nav a:hover {
   text-align: center;
 }
 .left .btn:hover {
-  background-color: #1d70f5;
+  background-color: #649cf5;
 }
 .right {
   float: right;
@@ -86,4 +87,27 @@ nav a:hover {
   width: auto;
   height: 250px;
   float: right;
+}
+/* Section Information */
+.section-info {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  padding: 20px;
+}
+.section-info .img-container {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  float: left;
+  width: 20.33%;
+  margin: 19px;
+  clear: right;
+  transition: transform 0.3s;
+}
+.img-container img {
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+}
+.section-info .img-container:hover {
+  transform: scale(0.9);
 }
