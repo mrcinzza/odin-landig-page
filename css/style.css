@@ -95,6 +95,11 @@ nav a:hover {
   width: 60%;
   padding: 20px;
 }
+.section-info h1 {
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1f2937;
+}
 .section-info .img-container {
   border: 3px solid #3882f6;
   border-radius: 10px;
