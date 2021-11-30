@@ -95,13 +95,13 @@ nav a:hover {
   text-align: center;
   margin: auto;
   width: 60%;
-  overflow:hidden;
+  overflow: hidden;
   padding-bottom: 60px;
 }
 .section-info h1 {
-    font-size: 36px;
-    font-weight:bolder;
-    color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
 }
 .section-info .img-container {
   border: 3px solid #3882f6;
@@ -122,9 +122,36 @@ nav a:hover {
 /* Quaote section */
 .section-quote {
   clear: both;
-  text-align:left;
+  text-align: left;
   font-size: 36px;
-  font-weight:lighter;
+  font-weight: lighter;
   background-color: #e5e7eb;
   color: #1f2937;
+}
+
+/* jbtron 'call to action' */
+.jbtron {
+  clear: both;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0 20px 0;
+  color: #f9faf8;
+  overflow: hidden;
+  padding: 50px;
+}
+
+.jbtron button{
+  float:right;
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 12px 30px;
+  border: 2px solid #f9faf8;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+.jbtron div {
+  float:left;
 }
