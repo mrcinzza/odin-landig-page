@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    top: 0;
+    overflow: hidden;
+    background-color: #1f2937;
+    color: #fff;
+}
+.header a {
+    float: left;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+nav {
+    float: right
+}
+.center {
+    margin: auto;
+    width: 60%;
+}
+
