@@ -27,6 +27,7 @@ body {
 }
 nav {
   float: right;
+  padding: 20px 0;
 }
 nav a {
   float: left;
@@ -41,8 +42,9 @@ nav a:hover {
 }
 .center {
   margin: auto;
+  overflow: hidden;
   width: 60%;
-  padding: 20px;
+  padding: 5px;
 }
 /* Second section */
 .section-2 {
@@ -93,7 +95,8 @@ nav a:hover {
   text-align: center;
   margin: auto;
   width: 60%;
-  padding: 20px;
+  overflow:hidden;
+  padding-bottom: 60px;
 }
 .section-info h1 {
     font-size: 36px;
@@ -115,4 +118,13 @@ nav a:hover {
 }
 .section-info .img-container:hover {
   transform: scale(0.9);
+}
+/* Quaote section */
+.section-quote {
+  clear: both;
+  text-align:left;
+  font-size: 36px;
+  font-weight:lighter;
+  background-color: #e5e7eb;
+  color: #1f2937;
 }
